@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+/* 웹 폰트 - 나눔고딕, 나눔고딕 볼드 */
+@font-face {
+    font-family:'NGNormal';
+    font-style:normal;
+    font-weight:400;
+    src:url('../font/NanumGothic.eot');
+    src:local(※), url('../font/NanumGothic.eot') format('embedded-opentype'), url('../font/NanumGothic.woff') format('woff');
+}
+@font-face {
+    font-family:'NGBold';
+    font-style:normal;
+    font-weight:700;
+    src:url('../font/NanumGothicBold.eot');
+    src:local(※), url('../font/NanumGothicBold.eot') format('embedded-opentype'), url('../font/NanumGothicBold.woff') format('woff');
+}
+
+/* MASTER */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,input,button,textarea,select,option
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+outline: none;
+-webkit-tap-highlight-color:transparent;
+}
+
+h1,h2,h3,h4,h5,h6{font-size:14px; text-align:left;}
+body,input,button,textarea,select,option{font-size:14px; font-family:'NGNormal',Dotum,Arial,sans-serif; color:#202020; letter-spacing:-1px;}
+/*body,input,button,textarea,select,option{font-size:14px; font-family:"맑은 고딕",MalgunGothic,Dotum,Arial,sans-serif; color:#202020;}*/
+/*body,input,button,textarea,select,option{font-size:14px; font-family:nanumbarungothic,Dotum,Arial,sans-serif; color:#202020;}*/
+
+label{font-size:14px; vertical-align:middle; cursor:pointer;}
+.align_m {vertical-align:middle;}
+
+body {
+line-height: 1;
+}
+html,body { min-height:100%; height:100%;  
+	-webkit-touch-callout:none;
+    -webkit-user-select:none;
+    -webkit-tap-highlight-color:transparent;
+}
+ol, ul {
+list-style: none;
+}
+
+blockquote, q {
+quotes: none;
+}
+
+a{text-decoration:none; color:#202020;}
+
+input {border-radius: 0px; }
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+
+table {
+border-collapse: collapse;
+border-spacing: 0;
+width:100%;
+}
+caption { display:none; }

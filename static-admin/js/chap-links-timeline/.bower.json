@@ -1,0 +1,29 @@
+{
+  "name": "chap-links-timeline",
+  "version": "2.6.1",
+  "main": [
+    "timeline-min.js",
+    "timeline.css"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vashik/chap-links-timeline.git"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ],
+  "dependencies": {},
+  "devDependencies": {},
+  "homepage": "https://github.com/vashik/chap-links-timeline",
+  "_release": "2.6.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "2.6.1",
+    "commit": "764cd1c4026369c5a3d209db66ce88fb8c3831ff"
+  },
+  "_source": "git://github.com/vashik/chap-links-timeline.git",
+  "_target": "~2.6.1",
+  "_originalSource": "chap-links-timeline"
+}

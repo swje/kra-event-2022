@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<title>렛츠런파크 이벤트</title>
+<link rel="image_src" href="/event_sns_share.png" />
+<meta name="twitter:title" content="렛츠런파크 이벤트" />
+<meta name="twitter:image" content="http://<?php echo $_SERVER['HTTP_HOST'].$sns_image;?>" />
+
+<meta property="og:title" content="렛츠런파크 이벤트" />
+<meta property="og:url" content="http://<?php echo $_SERVER['HTTP_HOST'];?>" />
+<meta property="og:description" content="렛츠런파크 이벤트 페이지" />
+<meta property="og:image" content="http://<?php echo $_SERVER['HTTP_HOST'].$sns_image;?>" />
+
+<script type="text/javascript" src="/static-m/js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="/static-m/js/common.js"></script>
+<link rel="stylesheet" type="text/css" href="/static-m/css/layout.css?v=1.0">
+</head>
+<body>
+
+<div class="main_visual">
+	<!--메인비주얼 이미지-->
+	<h1><img src="<?php echo $main_banner;?>" alt="무료입장권 받고 렛츠런파크로 GO"/></h1>
+</div>
+
+<?php echo $contents;?>
+
+<div class="footer" >
+	 <div class="address">COPYRIGHT 2018 KRA CORPORATION ALL RIGHTS RESERVED.</div>
+</div>
+<script type="text/javascript" src="https://s3.ap-northeast-2.amazonaws.com/adpick.co.kr/apis/apTracker.v3.js"></script>
+<script type="text/javascript" src="https://wcs.naver.net/wcslog.js"></script>
+<script type="text/javascript">
+
+    if(!wcs_add) var wcs_add = {};
+    wcs_add["wa"] = "775770241c3a84";
+    wcs_do();
+     
+   
+</script>
+</body>
+</html>
